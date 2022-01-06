@@ -41,6 +41,14 @@ class ArticlesController < ApplicationController
     end
   end
 
+  # delete entry
+  def destroy
+    @article = Article.find(params[:id])
+    @article.destroy
+
+    redirect_to articles_path
+  end
+
   #only accepting certain entries
   private
     def article_params
