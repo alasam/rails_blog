@@ -1901,3 +1901,4 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.2ms)
 
 
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at bin/rails:4)
