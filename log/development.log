@@ -1632,3 +1632,11 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/articles/new" for ::1 at 2022-01-06 07:50:55 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (3.6ms)
+  Rendered articles/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
